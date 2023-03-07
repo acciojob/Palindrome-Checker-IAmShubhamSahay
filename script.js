@@ -1,11 +1,11 @@
 // complete the given function
 
 function palindrome(str){
-    char ch ;
+    let ch="" ;
 	String s="";
-	for (let index = (str.length()-1); index >=0 ; index--) {
-		ch=str.charAt(index);
-		s=s+ch;
+	for (let index = (str.length-1); index >=0 ; index--) {
+		ch+=str[index];
+	
 	}
 	if(s==str){
 		return true;
