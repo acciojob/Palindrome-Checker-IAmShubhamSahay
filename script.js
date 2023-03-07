@@ -2,12 +2,12 @@
 
 function palindrome(str){
     let ch="" ;
-	String s="";
+	
 	for (let index = (str.length-1); index >=0 ; index--) {
 		ch+=str[index];
 	
 	}
-	if(s==str){
+	if(ch==str){
 		return true;
 	}else{
 		return false;
